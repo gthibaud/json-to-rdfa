@@ -1,0 +1,13 @@
+{
+  "name": "json-to-rdfa",
+  "version": "0.0.1",
+  "description": "This script converts a JSON object to RDFa metadata in an HTML file.",
+  "main": "index.js",
+  "repository": "https://github.com/gthibaud/json-to-rdfa",
+  "author": "Grégoire Thibaud",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "xml-formatter": "^2.4.0"
+  }
+}
