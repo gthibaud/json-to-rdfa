@@ -35,7 +35,7 @@ const test = () => {
         rdfObject += getEmptyElement(
             'meta',
             'sioc:content',
-            Object.keys(b).map(key => getValue(sourceFileContent, key, b[key], language)).filter(x => x).join('\n')
+            Object.keys(b).map(key => getValue(sourceFileContent, key, b[key], language)).filter(x => x).join('\n').replace('<','').replace('>','').replace(',','')
         );
         rdfObject += getEndElement('div');
         return rdfObject;
